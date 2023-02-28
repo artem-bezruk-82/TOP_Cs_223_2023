@@ -19,12 +19,12 @@ namespace hw_03_p1_task4_webSite
             WebSite metanit = new WebSite()
             {
                 Name = "Metanit",
-                Uri = new Uri("https://metanit.com/"),
-                IPaddress = IPAddress.Parse("77.222.61.70"),
+                Uri = new Uri("https://google.com/"),
                 Description = "Site about programming"
             };
 
             Console.WriteLine(metanit);
+
 
         }
     }
