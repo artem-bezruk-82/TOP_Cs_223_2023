@@ -18,7 +18,7 @@ namespace hw_04_task4_Workers
 
         public override void Print()
         {
-            Console.WriteLine($"{Name} {Surname}; Manager");
+            Console.WriteLine($"{base.ToString()}; Manager");
         }
     }
 }

@@ -18,7 +18,7 @@ namespace hw_04_task4_Workers
 
         public override void Print()
         {
-            Console.WriteLine($"{Name} {Surname}; Security");
+            Console.WriteLine($"{base.ToString()}; Security");
         }
     }
 }

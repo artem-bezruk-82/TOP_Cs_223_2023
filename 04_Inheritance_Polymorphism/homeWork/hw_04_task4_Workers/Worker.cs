@@ -85,5 +85,10 @@ namespace hw_04_task4_Workers
         }
 
         public abstract void Print();
+
+        public override string ToString()
+        {
+            return $"{Name} {Surname}, BirthDay: {BirthDay.ToShortDateString()}";
+        }
     }
 }

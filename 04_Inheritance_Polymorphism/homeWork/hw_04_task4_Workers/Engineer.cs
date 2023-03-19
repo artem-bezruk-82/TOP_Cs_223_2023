@@ -18,7 +18,8 @@ namespace hw_04_task4_Workers
 
         public override void Print()
         {
-            Console.WriteLine($"{Name} {Surname}; Engineer");
+            //Console.WriteLine($"{Name} {Surname}; Engineer");
+            Console.WriteLine($"{base.ToString()} Engineer");
         }
     }
 }
