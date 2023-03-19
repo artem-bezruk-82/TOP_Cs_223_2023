@@ -20,9 +20,9 @@ namespace hw_04_task2_Devices
         {
             Device[] devices =
             {
-                new Teapot(name: "tp1", description: "mini pot", waterVolume: 2),
-                new Teapot(name: "tp2", description: "middle pot", waterVolume: 4),
-                new Teapot(name: "tp3", description: "large pot", waterVolume: 6),
+                new Teapot("tp1", "mini pot",  2),
+                new Teapot("tp2", "middle pot", 4),
+                new Teapot("tp3",  "large pot",  6),
                 null,
                 new MicrowaveOwen("mo1", "low-powered owen",  350),
                 new MicrowaveOwen("mo2", "middle-powered owen",  650),
@@ -47,7 +47,7 @@ namespace hw_04_task2_Devices
                 switch (device)
                 {
                     case Teapot teapot:
-                        teapot.BoilingWater(); 
+                        teapot.BoilingWater();
                         break;
                     case MicrowaveOwen owen:
                         owen.WarmingUpFood();

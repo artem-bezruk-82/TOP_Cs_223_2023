@@ -53,7 +53,7 @@ namespace hw_04_task2_Devices
 
         public override string ToString() 
         {
-            return $"{base.ToString} Volume: {WaterVolume};";
+            return $"{base.ToString()} Volume: {WaterVolume};";
         }
     }
 }
