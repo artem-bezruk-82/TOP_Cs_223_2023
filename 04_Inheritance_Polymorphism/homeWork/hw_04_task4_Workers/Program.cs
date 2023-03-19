@@ -51,7 +51,7 @@ namespace hw_04_task4_Workers
                         president.Represent();
                         break;
                     default:
-                        Console.WriteLine($"{worker.Name} is {typeof(Worker).Name} type");
+                        Console.WriteLine($"{worker.Name} is {worker.GetType().Name} type");
                         break;
                 }
             }
